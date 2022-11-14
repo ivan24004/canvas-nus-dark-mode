@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name" : "NUS Canvas Dark Theme",
+    "version" : "0.0.0",
+    "description" : "chrome extension to convert nus canvas to a dark theme",
+    "content_scripts" : [{
+        "css" : ["styles.css"],
+        "matches" : ["https://canvas.nus.edu.sg/*"]
+    }]
+}
